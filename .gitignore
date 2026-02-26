@@ -8,5 +8,4 @@ node_modules/
 /playwright/.auth/
 /allure-report
 /allure-results
-package-lock.json
 .vscode
