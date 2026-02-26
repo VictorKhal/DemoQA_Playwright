@@ -1,37 +1,40 @@
 # DemoQA_Playwright
+**PS**>
+>Интересная работа, было с чем разобраться и порпробовать свои силы.  Хотел бы узнать слабые места и что можно улучшить. Буду
+рад обратной связи =)
 
 Тестируемый ресурс [demoqa.com](https://demoqa.com). 
 
 Тесты написаны на JavaScript с использованием фреймворка Playwright.
 
-Протестированы вкладки:
+**Протестированы вкладки:**
     - Droppable
     - Draggable
 
-Тесты запускаются  в 3 браузерах:
+**Тесты запускаются  в 3 браузерах:**
     - Chromium
     - Firefox
     - WebKit (Safari)
 
 К проекту подключен Allure Reporter для  создания отчетов о прохождении тестов.
 
-Запуск тестов: 
+##Запуск тестов:## 
 
-npm install
+`npm install`
 
 Установить браузеры Playwright
 
-npx playwright install
+`npx playwright install`
 
 Запуск всех тестов
 
-npx playwright test
+`npx playwright test`
 
 Запуск тестов с отчетом Allure
 
-npx playwright test --reporter=line,allure-playwright
+`npx playwright test --reporter=line,allure-playwright`
 
 Генерация и открытие отчета Allure
 
-allure generate allure-results -o allure-report --clean
-allure open allure-report
+`allure generate allure-results -o allure-report --clean`
+`allure open allure-report`
